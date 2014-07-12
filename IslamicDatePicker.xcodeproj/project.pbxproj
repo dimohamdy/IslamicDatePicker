@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0EACBB197078700034ECFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0EACBA197078700034ECFD /* Foundation.framework */; };
+		3D0EACBD197078700034ECFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0EACBC197078700034ECFD /* CoreGraphics.framework */; };
+		3D0EACBF197078700034ECFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0EACBE197078700034ECFD /* UIKit.framework */; };
+		3D0EACC5197078710034ECFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EACC3197078710034ECFD /* InfoPlist.strings */; };
+		3D0EACC7197078710034ECFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EACC6197078710034ECFD /* main.m */; };
+		3D0EACCB197078710034ECFD /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EACCA197078710034ECFD /* DHAppDelegate.m */; };
+		3D0EACCE197078710034ECFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EACCC197078710034ECFD /* Main.storyboard */; };
+		3D0EACD1197078710034ECFD /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EACD0197078710034ECFD /* DHViewController.m */; };
+		3D0EACD3197078710034ECFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EACD2197078710034ECFD /* Images.xcassets */; };
+		3D0EACDA197078710034ECFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0EACD9197078710034ECFD /* XCTest.framework */; };
+		3D0EACDB197078710034ECFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0EACBA197078700034ECFD /* Foundation.framework */; };
+		3D0EACDC197078710034ECFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0EACBE197078700034ECFD /* UIKit.framework */; };
+		3D0EACE4197078710034ECFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EACE2197078710034ECFD /* InfoPlist.strings */; };
+		3D0EACE6197078710034ECFD /* IslamicDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EACE5197078710034ECFD /* IslamicDatePickerTests.m */; };
+		3D0EACF61970790B0034ECFD /* IslamicDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EACF51970790B0034ECFD /* IslamicDatePicker.m */; };
+		3D0EACF8197079C50034ECFD /* IslamicDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EACF7197079C50034ECFD /* IslamicDatePicker.xib */; };
+		3DFD1C691970C0B800518963 /* dataDic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD1C681970C0B800518963 /* dataDic.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0EACDD197078710034ECFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D0EACAF1970786F0034ECFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0EACB6197078700034ECFD;
+			remoteInfo = IslamicDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D0EACB7197078700034ECFD /* IslamicDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamicDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0EACBA197078700034ECFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D0EACBC197078700034ECFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D0EACBE197078700034ECFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D0EACC2197078710034ECFD /* IslamicDatePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IslamicDatePicker-Info.plist"; sourceTree = "<group>"; };
+		3D0EACC4197078710034ECFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D0EACC6197078710034ECFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D0EACC8197078710034ECFD /* IslamicDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IslamicDatePicker-Prefix.pch"; sourceTree = "<group>"; };
+		3D0EACC9197078710034ECFD /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		3D0EACCA197078710034ECFD /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
+		3D0EACCD197078710034ECFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D0EACCF197078710034ECFD /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		3D0EACD0197078710034ECFD /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		3D0EACD2197078710034ECFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D0EACD8197078710034ECFD /* IslamicDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslamicDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0EACD9197078710034ECFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D0EACE1197078710034ECFD /* IslamicDatePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IslamicDatePickerTests-Info.plist"; sourceTree = "<group>"; };
+		3D0EACE3197078710034ECFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D0EACE5197078710034ECFD /* IslamicDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IslamicDatePickerTests.m; sourceTree = "<group>"; };
+		3D0EACF41970790B0034ECFD /* IslamicDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IslamicDatePicker.h; sourceTree = "<group>"; };
+		3D0EACF51970790B0034ECFD /* IslamicDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IslamicDatePicker.m; sourceTree = "<group>"; };
+		3D0EACF7197079C50034ECFD /* IslamicDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IslamicDatePicker.xib; sourceTree = "<group>"; };
+		3DFD1C681970C0B800518963 /* dataDic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataDic.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0EACB4197078700034ECFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EACBD197078700034ECFD /* CoreGraphics.framework in Frameworks */,
+				3D0EACBF197078700034ECFD /* UIKit.framework in Frameworks */,
+				3D0EACBB197078700034ECFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EACD5197078710034ECFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EACDA197078710034ECFD /* XCTest.framework in Frameworks */,
+				3D0EACDC197078710034ECFD /* UIKit.framework in Frameworks */,
+				3D0EACDB197078710034ECFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0EACAE1970786F0034ECFD = {
+			isa = PBXGroup;
+			children = (
+				3D0EACC0197078700034ECFD /* IslamicDatePicker */,
+				3D0EACDF197078710034ECFD /* IslamicDatePickerTests */,
+				3D0EACB9197078700034ECFD /* Frameworks */,
+				3D0EACB8197078700034ECFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0EACB8197078700034ECFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EACB7197078700034ECFD /* IslamicDatePicker.app */,
+				3D0EACD8197078710034ECFD /* IslamicDatePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0EACB9197078700034ECFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EACBA197078700034ECFD /* Foundation.framework */,
+				3D0EACBC197078700034ECFD /* CoreGraphics.framework */,
+				3D0EACBE197078700034ECFD /* UIKit.framework */,
+				3D0EACD9197078710034ECFD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D0EACC0197078700034ECFD /* IslamicDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EACC9197078710034ECFD /* DHAppDelegate.h */,
+				3D0EACCA197078710034ECFD /* DHAppDelegate.m */,
+				3D0EACCC197078710034ECFD /* Main.storyboard */,
+				3D0EACCF197078710034ECFD /* DHViewController.h */,
+				3D0EACD0197078710034ECFD /* DHViewController.m */,
+				3D0EACD2197078710034ECFD /* Images.xcassets */,
+				3D0EACF41970790B0034ECFD /* IslamicDatePicker.h */,
+				3D0EACF51970790B0034ECFD /* IslamicDatePicker.m */,
+				3D0EACF7197079C50034ECFD /* IslamicDatePicker.xib */,
+				3DFD1C681970C0B800518963 /* dataDic.plist */,
+				3D0EACC1197078710034ECFD /* Supporting Files */,
+			);
+			path = IslamicDatePicker;
+			sourceTree = "<group>";
+		};
+		3D0EACC1197078710034ECFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EACC2197078710034ECFD /* IslamicDatePicker-Info.plist */,
+				3D0EACC3197078710034ECFD /* InfoPlist.strings */,
+				3D0EACC6197078710034ECFD /* main.m */,
+				3D0EACC8197078710034ECFD /* IslamicDatePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D0EACDF197078710034ECFD /* IslamicDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EACE5197078710034ECFD /* IslamicDatePickerTests.m */,
+				3D0EACE0197078710034ECFD /* Supporting Files */,
+			);
+			path = IslamicDatePickerTests;
+			sourceTree = "<group>";
+		};
+		3D0EACE0197078710034ECFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EACE1197078710034ECFD /* IslamicDatePickerTests-Info.plist */,
+				3D0EACE2197078710034ECFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0EACB6197078700034ECFD /* IslamicDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0EACE9197078710034ECFD /* Build configuration list for PBXNativeTarget "IslamicDatePicker" */;
+			buildPhases = (
+				3D0EACB3197078700034ECFD /* Sources */,
+				3D0EACB4197078700034ECFD /* Frameworks */,
+				3D0EACB5197078700034ECFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IslamicDatePicker;
+			productName = IslamicDatePicker;
+			productReference = 3D0EACB7197078700034ECFD /* IslamicDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D0EACD7197078710034ECFD /* IslamicDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0EACEC197078710034ECFD /* Build configuration list for PBXNativeTarget "IslamicDatePickerTests" */;
+			buildPhases = (
+				3D0EACD4197078710034ECFD /* Sources */,
+				3D0EACD5197078710034ECFD /* Frameworks */,
+				3D0EACD6197078710034ECFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0EACDE197078710034ECFD /* PBXTargetDependency */,
+			);
+			name = IslamicDatePickerTests;
+			productName = IslamicDatePickerTests;
+			productReference = 3D0EACD8197078710034ECFD /* IslamicDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D0EACAF1970786F0034ECFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AhmedHamdy;
+				TargetAttributes = {
+					3D0EACD7197078710034ECFD = {
+						TestTargetID = 3D0EACB6197078700034ECFD;
+					};
+				};
+			};
+			buildConfigurationList = 3D0EACB2197078700034ECFD /* Build configuration list for PBXProject "IslamicDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D0EACAE1970786F0034ECFD;
+			productRefGroup = 3D0EACB8197078700034ECFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0EACB6197078700034ECFD /* IslamicDatePicker */,
+				3D0EACD7197078710034ECFD /* IslamicDatePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0EACB5197078700034ECFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EACD3197078710034ECFD /* Images.xcassets in Resources */,
+				3D0EACF8197079C50034ECFD /* IslamicDatePicker.xib in Resources */,
+				3D0EACC5197078710034ECFD /* InfoPlist.strings in Resources */,
+				3DFD1C691970C0B800518963 /* dataDic.plist in Resources */,
+				3D0EACCE197078710034ECFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EACD6197078710034ECFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EACE4197078710034ECFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0EACB3197078700034ECFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EACCB197078710034ECFD /* DHAppDelegate.m in Sources */,
+				3D0EACD1197078710034ECFD /* DHViewController.m in Sources */,
+				3D0EACC7197078710034ECFD /* main.m in Sources */,
+				3D0EACF61970790B0034ECFD /* IslamicDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EACD4197078710034ECFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EACE6197078710034ECFD /* IslamicDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0EACDE197078710034ECFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0EACB6197078700034ECFD /* IslamicDatePicker */;
+			targetProxy = 3D0EACDD197078710034ECFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D0EACC3197078710034ECFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0EACC4197078710034ECFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D0EACCC197078710034ECFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0EACCD197078710034ECFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D0EACE2197078710034ECFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0EACE3197078710034ECFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D0EACE7197078710034ECFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D0EACE8197078710034ECFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0EACEA197078710034ECFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IslamicDatePicker/IslamicDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "IslamicDatePicker/IslamicDatePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D0EACEB197078710034ECFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IslamicDatePicker/IslamicDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "IslamicDatePicker/IslamicDatePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D0EACED197078710034ECFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IslamicDatePicker.app/IslamicDatePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IslamicDatePicker/IslamicDatePicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IslamicDatePickerTests/IslamicDatePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D0EACEE197078710034ECFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IslamicDatePicker.app/IslamicDatePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IslamicDatePicker/IslamicDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "IslamicDatePickerTests/IslamicDatePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D0EACB2197078700034ECFD /* Build configuration list for PBXProject "IslamicDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EACE7197078710034ECFD /* Debug */,
+				3D0EACE8197078710034ECFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0EACE9197078710034ECFD /* Build configuration list for PBXNativeTarget "IslamicDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EACEA197078710034ECFD /* Debug */,
+				3D0EACEB197078710034ECFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0EACEC197078710034ECFD /* Build configuration list for PBXNativeTarget "IslamicDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EACED197078710034ECFD /* Debug */,
+				3D0EACEE197078710034ECFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D0EACAF1970786F0034ECFD /* Project object */;
+}
